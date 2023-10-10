@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+   
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+    padding: 1%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    /* black background di testo  */
+    background-color: rgba(66, 68, 70, 0.75);
+    margin: 25px 18%;
+    border-radius: 2%;
+    padding: 5%;
+}
+
+.header-nav{
+    text-align: center;
+    color: rgb(47, 242, 8);
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+nav{
+    background-color: rgb(47, 242, 8);
+    padding: 0.8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.scooter_container{
+    margin:40px;
+}
+
+.scooter_container hr{
+    height:20px;
+    text-align: right;
+    border-radius: 3px;
+    border: 1px;
+}
+.charge_gino{
+    width:40%;
+    background-color: orange;
+}
+
+.charge_mike{
+    width: 60%;
+    background-color: green;
+}
+
+.charge_fede{
+    width:20%;
+    background-color: red;
+}
